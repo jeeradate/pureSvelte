@@ -41,6 +41,7 @@
 		<br>
 		<p>กดเพิ่มและลดคะแนนในแต่ละทีมได้ หากทีมไหนได้คะแนเป็น ศูนย์ 0 ก่อน อีกทีม จะชนะ </p><br>
 		<p>กด Reset Game เพื่อตั้งต้นใหม่ </p> <br>
-		<p>หรือกด New Game เพื่อเล่นอีกเกมส์</p>
+		<p>หรือกด New Game เพื่อเล่นอีกเกมส์</p><br>
+		<a href="https://github.com/jeeradate/pureSvelte">Source Code is here</a>
 	</div>
 {/if}
