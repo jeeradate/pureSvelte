@@ -38,4 +38,6 @@
     <h3>{author}</h3>
 
 {/if}
-
+<p>This component need to run in Chrome with CORS extension enable</p>
+<p>Refresh this page to show different quote</p>
+<p><a href="https://github.com/jeeradate/pureSvelte">Source code</a></p>
