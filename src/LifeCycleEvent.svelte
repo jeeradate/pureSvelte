@@ -4,7 +4,7 @@
     let unorderListElement;
     let scrollOn = true;
     let intervalId;
-    let bLabel = 'Run';
+    let bLabel = 'Stop';
 
     function toggle(){
         if(scrollOn){
