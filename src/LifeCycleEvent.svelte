@@ -5,7 +5,7 @@
     let scrollOn = true;
     let intervalId;
     let bLabel = 'Run';
-    
+
     function toggle(){
         if(scrollOn){
             scrollOn = false;
@@ -52,7 +52,12 @@
 </ul>
 
 
-<button on:click={toggle}>{bLabel}</button>
+<button on:click={toggle}>{bLabel}</button><br><br>
+
+<a href="https://github.com/jeeradate/pureSvelte">Source Code Link</a>
+
+
+
 
 <style>
     ul {
