@@ -1,6 +1,16 @@
 <script>
-    import LifeCycle from "./LifeCycle.svelte";
+    import LifeCycleEvent from "./LifeCycleEvent.svelte";
+    // import Test from "./Test.svelte";
+    // let show = false;
+
+
 </script>
-
-<LifeCycle />
-
+<!-- <label for="checkbox">คลิน checkbox ด้านล่างนี้เพื่อ load component</label> -->
+<!-- <input type="checkbox" bind:checked={show} id="checkbox"> -->
+<!-- <p>-------------------------------------</p> -->
+<!-- {#if show} -->
+    <LifeCycleEvent />
+  
+    
+    
+<!-- {/if} -->
