@@ -5,4 +5,4 @@
     }
 </script>
 
-<button on:click={increment}>+</button>
+<button on:click={increment} style="background-color: yellow;">+</button>

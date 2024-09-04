@@ -4,4 +4,4 @@
         count.set(0);
     }
 </script>
-<button on:click={reset}>reset</button>
+<button on:click={reset} style="background-color: goldenrod;">reset</button>
