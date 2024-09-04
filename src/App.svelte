@@ -1,16 +1,17 @@
 <script>
-    import LifeCycleEvent from "./LifeCycleEvent.svelte";
-    // import Test from "./Test.svelte";
-    // let show = false;
-
-
+    import { count } from "./stores/stores";
+    import Increment from "./Increment.svelte";
+    import Decrement from "./Decrement.svelte";
+    import Reset from "./Reset.svelte";
+    let countValue;
+    count.subscribe((value) => (countValue = value));
 </script>
-<!-- <label for="checkbox">คลิน checkbox ด้านล่างนี้เพื่อ load component</label> -->
-<!-- <input type="checkbox" bind:checked={show} id="checkbox"> -->
-<!-- <p>-------------------------------------</p> -->
-<!-- {#if show} -->
-    <LifeCycleEvent />
-  
-    
-    
-<!-- {/if} -->
+
+<h1>The count is {countValue} ok</h1>
+<Increment />
+<Decrement />
+<Reset />
+<br>
+<br>
+<p>This is for learning Svelte</p>
+<a href="https://github.com/jeeradate/pureSvelte">Source code Link</a>
